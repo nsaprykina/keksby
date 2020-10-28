@@ -54,13 +54,12 @@ body {
   width: 520px;
   margin: 0;
   padding: 0;
-  margin-left: 125px
-  ;
+  margin-left: 125px;
+  margin-top: 18px;
 }
 
 .main-nav li {
   float: left;
-  margin-top: 18px;
   margin-right: 50px;
 }
 
