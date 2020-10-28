@@ -58,6 +58,16 @@ body {
   ;
 }
 
+.main-nav li {
+  float: left;
+  margin-top: 18px;
+  margin-right: 50px;
+}
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
 .main-nav a {
   color: #ffffff;
   text-decoration: none;
