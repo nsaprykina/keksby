@@ -147,6 +147,7 @@ body {
 }
 
 .feature-item {
+  position: relative;
   text-align: center;
   border-left: 1px solid #d9d9d9;
   padding-top: 90px;
@@ -165,20 +166,33 @@ body {
   position: absolute;
   width: 65px;
   height: 65px;
-  background-color: red;
-  opacity: 0.5;
+  top: 0;
+  left: 137px;
+  background: url(../img/feature-1.png) no-repeat;
+}
+
+.feature-choice::before {
+  background-position: -5px -5px;
+}
+
+.feature-quality::before {
+  background-position: -5px 76px;
+}
+
+.feature-safety::before {
+  background-position: 1px 143px;
 }
 
 .feature-choice {
-  background: url("../img/feature-1.png") no-repeat top center;
+  
 }
 
 .feature-quality {
-  background: url("../img/feature-2.png") no-repeat top center;
+  
 }
 
 .feature-safety {
-  background: url("../img/feature-3.png") no-repeat top center;
+  
 }
 
 .feature-title {
