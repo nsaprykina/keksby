@@ -106,6 +106,20 @@ body {
 
 .btn-quick-order {
   float: right;
+  margin-top: 6px;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-quick-order:hover {
+  color: #404040;
+  background-color: #ffffff;
+}
+
+.btn-quick-order:active {
+  color: rgba(64, 64, 64, 0.3);
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .promo {
