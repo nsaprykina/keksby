@@ -84,6 +84,10 @@ body {
   color: #a38b70;
   text-decoration: none;
   text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid #a38b70;
+  padding: 10px;
 }
 
 .btn:hover {
