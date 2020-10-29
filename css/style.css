@@ -160,6 +160,15 @@ body {
  border-left-color: transparent; 
 }
 
+.feature-item::before {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: red;
+  opacity: 0.5;
+}
+
 .feature-choice {
   background: url("../img/feature-1.png") no-repeat top center;
 }
@@ -173,11 +182,17 @@ body {
 }
 
 .feature-title {
+  margin: 0;
+  margin-bottom: 20px;
   font-family: "Georgia", serif;
   font-size: 30px;
   line-height: 30px;
   font-weight: 700;
   color: #a38b70;
+}
+
+.feature-item p {
+  margin: 0;
 }
 
 .cat-reference {
